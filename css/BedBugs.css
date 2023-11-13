@@ -64,3 +64,36 @@ section h2 {
     text-decoration: none;
     border-left: 1px solid #0c5371;
 }
+
+.image {
+    max-width: 320px; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+@media (max-width: 981px) {
+    p, li, #table-of-contents li a {
+        font-size: 40px
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 42px;
+    }
+
+    .image {
+        max-width: 600px; 
+        height: auto; 
+    }
+}
