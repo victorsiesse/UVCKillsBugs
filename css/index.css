@@ -50,12 +50,18 @@ article {
 
 article p {
     max-width: 500px;
-    max-height: 500px;
+    height: auto;
     font-size: 20px;
 }
 
 h2 {
     font-size: 30px;
+}
+
+.image {
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 5px;
 }
 
 .container {
@@ -86,5 +92,39 @@ h2 {
 }
 
 @media (max-width: 981px) {
+
+
+
+    .description {
+        padding: 20px 75px;
+    }
     
+    .description p, 
+    article p,
+    .item p {
+        font-size: 40px;
+    }
+
+    article p {
+        max-width: 750px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .image {
+        max-width: 600px; 
+        height: auto; 
+    }
+    
+    .item {
+        max-width: 6100px;
+        height: 500px;
+    }
 }
