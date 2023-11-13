@@ -14,7 +14,7 @@ main {
 
 .description {
     margin: 0;
-    background-color: #c1c0c0;
+    background-color: #d6d6d6;
     padding: 20px 150px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -73,10 +73,14 @@ h2 {
     align-items: center;
 
     max-width: 300px;
-    height: 200px;
+    height: 250px;
 
     padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item p {
+    font-size: 20px;
 }
