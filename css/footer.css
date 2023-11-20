@@ -9,9 +9,12 @@ footer p {
     font-size: 18px;
 }
 
-@media (max-width: 981px) {
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 10px;
+    }
     footer p {
-        color: white;
-        font-size: 35px;
+        font-size: 14px;
     }
 }

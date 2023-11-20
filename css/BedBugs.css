@@ -8,8 +8,9 @@ main {
     background-color: white;
     padding: 10px 30px;
     display: flex;
-    gap: 10px;
     flex-direction: column;
+    gap: 10px;
+    
 }
 
 .top-container {
@@ -33,10 +34,41 @@ section p{
     padding-left: 10px;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-first-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 section h1, 
 section h2 {
     border-left: 3px solid #0c5371;
     padding-left: 10px;
+}
+
+#bed-bugs article p,
+#spread-of-bed-bugs article p {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bed-bugs article figure img,
+#spread-of-bed-bugs article figure img {
+    height: 700px;
+}
+
+#environment-uvckillsbugs article figure img,
+#identify-bed-bugs article figure img {
+    width: 500px;
 }
 
 #table-of-contents {
@@ -71,29 +103,41 @@ section h2 {
     border-radius: 5px;
 }
 
-@media (max-width: 981px) {
-    p, li, #table-of-contents li a {
-        font-size: 40px
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .top-container {
+        display: none;
+    }
+
+    section .contact-info a {
+        font-size: 14px;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 25px
     }
 
-    h2 {
-        font-size: 50px;
+    section h2 {
+        font-size: 20px;
     }
 
-    h3 {
-        font-size: 45px;
+    .two-first-section {
+        flex-direction: column;
     }
 
-    h4 {
-        font-size: 42px;
+    #bed-bugs article p,
+    #spread-of-bed-bugs article p {
+        height: auto;
     }
 
-    .image {
-        max-width: 600px; 
-        height: auto; 
+    #bed-bugs article figure img,
+    #spread-of-bed-bugs article figure img {
+        width: 280px;
+        height: auto;
+    }
+
+    #environment-uvckillsbugs article figure img,
+    #identify-bed-bugs article figure img {
+        width: 280px;
     }
 }
