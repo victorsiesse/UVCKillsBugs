@@ -1,12 +1,12 @@
 footer {
-    padding: 20px;
+    padding: 10px;
     background-color: #27aae1;
     text-align: center;
 }
 
 footer p {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* Media Query for smaller screens */
