@@ -123,8 +123,8 @@ h2 {
     }
 
     .item {
-        width: 250px;
-        height: 180px;
+        width: 225px;
+        height: auto;
     }
 
     .item p {
